@@ -152,22 +152,9 @@ export const SOLUTIONS = [
 ];
 
 // -------------------- Partners --------------------
-// To ADD a partner: drop a logo file into /public/partners/ and add a line below.
-// To REMOVE a partner: delete its line.
-export const PARTNERS = [
-  { name: "Zimbra", logo: "/partners/zimbra.jpg" },
-  { name: "Kaspersky", logo: "/partners/kaspersky.jpg" },
-  { name: "AnyDesk", logo: "/partners/mdaemon.jpg" },
-  { name: "SentinelOne", logo: "/partners/sentinelone.jpg" },
-  { name: "BIPO", logo: "/partners/bipo.jpg" },
-  { name: "Veritas", logo: "/partners/dell.jpg" },
-  { name: "Microsoft", logo: "/partners/microsoft.jpg" },
-  { name: "HPE", logo: "/partners/hpe.jpg" },
-  { name: "Samsung", logo: "/partners/samsung.jpg" },
-  { name: "Imperva", logo: "/partners/imperva.jpg" },
-  { name: "Zoom", logo: "/partners/zoom.jpg" },
-  { name: "APC", logo: "/partners/apc.jpg" },
-];
+// Logos are read automatically from the /public/partners/ folder.
+// To add a partner: drop a PNG/JPG/SVG into public/partners/.
+// To remove a partner: delete its file. (No code changes needed.)
 
 // -------------------- About --------------------
 export const ABOUT_PAGE = {
