@@ -64,6 +64,22 @@ export default function ContactPage() {
             <ContactForm />
           </div>
         </div>
+
+        {/* Map */}
+        <div className="mt-12 overflow-hidden rounded-xl border border-border-gray">
+          <iframe
+            title="SATSET office location"
+            src={`https://maps.google.com/maps?q=${encodeURIComponent(
+              "Plaza Oleos, Jl. T.B. Simatupang No. 53A, Jakarta Selatan 12520",
+            )}&z=16&output=embed`}
+            width="100%"
+            height="380"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            className="block w-full border-0"
+            allowFullScreen
+          />
+        </div>
       </div>
     </section>
   );
