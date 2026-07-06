@@ -24,7 +24,7 @@ export default function ContactPage() {
           <div className="md:col-span-2">
             <div className="space-y-6 rounded-xl border border-border-gray bg-white p-8">
               <div className="flex items-start gap-3">
-                <IconMail className="mt-0.5 h-6 w-6 text-primary-blue" />
+                <IconMail className="mt-0.5 h-6 w-6 shrink-0 text-primary-blue" />
                 <div>
                   <p className="font-semibold text-primary-black">Email</p>
                   <a href={`mailto:${CONTACT_INFO.email}`} className="text-medium-gray hover:text-primary-blue">
@@ -33,7 +33,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <IconPhone className="mt-0.5 h-6 w-6 text-primary-blue" />
+                <IconPhone className="mt-0.5 h-6 w-6 shrink-0 text-primary-blue" />
                 <div>
                   <p className="font-semibold text-primary-black">Phone</p>
                   <a href={`tel:${CONTACT_INFO.phoneHref}`} className="text-medium-gray hover:text-primary-blue">
@@ -42,7 +42,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <IconLocation className="mt-0.5 h-6 w-6 text-primary-blue" />
+                <IconLocation className="mt-0.5 h-6 w-6 shrink-0 text-primary-blue" />
                 <div>
                   <p className="font-semibold text-primary-black">Location</p>
                   <p className="text-medium-gray">{CONTACT_INFO.address}</p>
