@@ -3,7 +3,7 @@ import { HOMEPAGE, PARTNERS } from "@/constants/content";
 
 export default function Partners() {
   return (
-    <section className="w-full bg-light-gray">
+    <section className="w-full bg-white">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 md:py-20">
         <div className="mx-auto mb-10 max-w-2xl text-center">
           <h2 className="text-2xl font-bold text-primary-black md:text-3xl">
@@ -24,7 +24,7 @@ export default function Partners() {
                 alt={`${p.name} logo`}
                 width={220}
                 height={120}
-                className="max-h-24 w-auto object-contain opacity-80 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0"
+                className="max-h-24 w-auto object-contain"
               />
             </div>
           ))}
