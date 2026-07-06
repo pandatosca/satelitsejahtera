@@ -17,9 +17,9 @@ export default function Header() {
           <Image
             src="/satset-logo.svg"
             alt="SATSET"
-            width={130}
-            height={40}
-            className="h-9 w-auto"
+            width={150}
+            height={45}
+            className="h-8 w-auto sm:h-9"
             priority
           />
         </Link>

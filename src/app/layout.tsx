@@ -23,7 +23,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   icons: {
-    icon: "/satset-logo.svg",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 };
 

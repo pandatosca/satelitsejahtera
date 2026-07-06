@@ -12,9 +12,10 @@ export const COMPANY = {
 
 export const CONTACT_INFO = {
   email: "sales@satelit-sejahtera.id",
-  phone: "+62 21 292 229 67",
+  phone: "021 292 229 67",
   phoneHref: "+622129222967",
-  address: "Jakarta, Indonesia",
+  address:
+    "Plaza Oleos Lantai 17, Unit G, Jl. T.B. Simatupang No. 53A, RT 002/RW 001, Kel. Kebagusan, Kec. Pasar Minggu, Jakarta Selatan 12520",
 };
 
 export const SOCIAL_LINKS = {

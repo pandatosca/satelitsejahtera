@@ -19,11 +19,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Image
-              src="/satset-logo.svg"
+              src="/satset-logo-white.svg"
               alt="SATSET"
-              width={140}
-              height={44}
-              className="mb-4 h-10 w-auto brightness-0 invert"
+              width={150}
+              height={45}
+              className="mb-4 h-10 w-auto"
             />
             <p className="text-sm leading-relaxed text-gray-400">
               {COMPANY.legalName}. {COMPANY.tagline} — delivering fast, reliable,

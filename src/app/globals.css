@@ -16,25 +16,28 @@
     sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* Base styles live in @layer base so Tailwind utilities (e.g. text-white)
+   can still override them. */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  background: #ffffff;
-  color: #231f20;
-  font-family: var(--font-sans);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
+  body {
+    background: #ffffff;
+    color: #231f20;
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #231f20;
-  font-weight: 600;
-  line-height: 1.25;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    line-height: 1.25;
+  }
 }
