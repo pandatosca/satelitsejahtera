@@ -12,19 +12,19 @@ export default function Partners() {
           <p className="mt-3 text-medium-gray">{HOMEPAGE.partnersSubtitle}</p>
         </div>
 
-        <div className="grid grid-cols-2 items-center gap-6 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 items-center gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
           {PARTNERS.map((p) => (
             <div
               key={p.name}
-              className="flex h-20 items-center justify-center rounded-lg border border-border-gray bg-white px-4 grayscale transition hover:grayscale-0"
+              className="flex h-24 items-center justify-center rounded-lg border border-border-gray bg-white p-4 transition hover:shadow-md"
               title={p.name}
             >
               <Image
                 src={p.logo}
-                alt={p.name}
-                width={120}
-                height={40}
-                className="h-8 w-auto object-contain"
+                alt={`${p.name} logo`}
+                width={160}
+                height={90}
+                className="max-h-16 w-auto object-contain"
               />
             </div>
           ))}

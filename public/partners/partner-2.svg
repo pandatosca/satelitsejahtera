@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" width="160" height="48">
-  <rect x="4" y="12" width="24" height="24" rx="6" fill="#0064C9"/>
-  <circle cx="16" cy="24" r="6" fill="#FFFFFF"/>
-  <text x="38" y="31" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="600" fill="#231F20">Vertex</text>
-</svg>

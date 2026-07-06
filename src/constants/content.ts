@@ -100,9 +100,9 @@ export const HOMEPAGE = {
     },
   ],
 
-  partnersTitle: "Trusted by Leading Organizations",
+  partnersTitle: "Our Partners",
   partnersSubtitle:
-    "We are proud to partner with companies who trust us with their technology.",
+    "We work with leading technology brands to deliver the best solutions for our clients.",
 
   ctaTitle: "Ready to Transform Your Business?",
   ctaSubtitle:
@@ -155,12 +155,18 @@ export const SOLUTIONS = [
 // To ADD a partner: drop a logo file into /public/partners/ and add a line below.
 // To REMOVE a partner: delete its line.
 export const PARTNERS = [
-  { name: "Nimbus", logo: "/partners/partner-1.svg" },
-  { name: "Vertex", logo: "/partners/partner-2.svg" },
-  { name: "Quantum", logo: "/partners/partner-3.svg" },
-  { name: "Apex", logo: "/partners/partner-4.svg" },
-  { name: "Orbit", logo: "/partners/partner-5.svg" },
-  { name: "Zenith", logo: "/partners/partner-6.svg" },
+  { name: "Zimbra", logo: "/partners/zimbra.jpg" },
+  { name: "Kaspersky", logo: "/partners/kaspersky.jpg" },
+  { name: "AnyDesk", logo: "/partners/mdaemon.jpg" },
+  { name: "SentinelOne", logo: "/partners/sentinelone.jpg" },
+  { name: "BIPO", logo: "/partners/bipo.jpg" },
+  { name: "Veritas", logo: "/partners/dell.jpg" },
+  { name: "Microsoft", logo: "/partners/microsoft.jpg" },
+  { name: "HPE", logo: "/partners/hpe.jpg" },
+  { name: "Samsung", logo: "/partners/samsung.jpg" },
+  { name: "Imperva", logo: "/partners/imperva.jpg" },
+  { name: "Zoom", logo: "/partners/zoom.jpg" },
+  { name: "APC", logo: "/partners/apc.jpg" },
 ];
 
 // -------------------- About --------------------
