@@ -73,19 +73,19 @@ export default function Footer() {
             </h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
-                <IconMail className="mt-0.5 h-5 w-5 text-primary-blue" />
+                <IconMail className="mt-0.5 h-5 w-5 shrink-0 text-primary-blue" />
                 <a href={`mailto:${CONTACT_INFO.email}`} className="hover:text-white">
                   {CONTACT_INFO.email}
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <IconPhone className="mt-0.5 h-5 w-5 text-primary-blue" />
+                <IconPhone className="mt-0.5 h-5 w-5 shrink-0 text-primary-blue" />
                 <a href={`tel:${CONTACT_INFO.phoneHref}`} className="hover:text-white">
                   {CONTACT_INFO.phone}
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <IconLocation className="mt-0.5 h-5 w-5 text-primary-blue" />
+                <IconLocation className="mt-0.5 h-5 w-5 shrink-0 text-primary-blue" />
                 <span>{CONTACT_INFO.address}</span>
               </li>
             </ul>
